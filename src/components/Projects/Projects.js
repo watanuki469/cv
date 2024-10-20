@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import editor from "../../Assets/Projects/gbox.png";
 import chatify from "../../Assets/Projects/movie.jpg";
+import imdb from "../../Assets/Projects/imdb.png";
 import bitsOfCode from "../../Assets/Projects/woode.png";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
@@ -40,7 +41,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={imdb}
               isBlog={false}
               title="IMDB Movie" 
               description="Develop using standard Typescript & NextJS || Libraries: Redux,tailwindcss,react-rounter-dom..."
