@@ -1,13 +1,10 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import { Col, Container, Row } from "react-bootstrap";
 import editor from "../../Assets/Projects/gbox.png";
 import chatify from "../../Assets/Projects/movie.jpg";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/woode.png";
+import Particle from "../Particle";
+import ProjectCard from "./ProjectCards";
 
 function Projects() {
   return (
@@ -45,10 +42,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="React Simple Movie" 
-              description="Develop using standard javacript & ReactJs || Libraries: Swiper,swr,react-rounter-dom..."
-              ghLink="https://github.com/watanuki469/React-simple-movie"
-              demoLink="https://simple-movie-tau.vercel.app/"
+              title="IMDB Movie" 
+              description="Develop using standard Typescript & NextJS || Libraries: Redux,tailwindcss,react-rounter-dom..."
+              ghLink="https://github.com/watanuki469/themoviedb"
+              demoLink="https://themoviedb-five.vercel.app/"
             />
           </Col>
 
